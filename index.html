@@ -4,11 +4,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Vineeth Kumar Boddu – Senior DevOps Engineer</title>
-  <meta name="description" content="Resume of Vineeth Kumar Boddu – Senior DevOps / DevSecOps Engineer with 11+ years experience across AWS, Kubernetes, Terraform, Jenkins, and cloud-native architectures." />
-  <meta property="og:title" content="Vineeth Kumar Boddu – Senior DevOps Engineer" />
-  <meta property="og:description" content="Resume of Vineeth Kumar Boddu – Senior DevOps / DevSecOps Engineer with 11+ years of experience." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="" />
   <style>
     :root {
       --bg: #0b1020;
@@ -18,241 +13,86 @@
       --accent: #7aa2f7;
       --pill: #1b2347;
       --link: #8bd5ff;
+      --hover-bg: #23315a;
+      --hover-shadow: 0 0 10px rgba(122,162,247,0.6);
     }
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; }
     body {
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
-      background: linear-gradient(180deg, #0b1020, #0f1830 40%, #0b1020);
+      font-family: Arial, sans-serif;
+      background: var(--bg);
       color: var(--ink);
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+      margin: 0; padding: 0;
     }
     .container { max-width: 1000px; margin: 0 auto; padding: 28px 20px 60px; }
-    header {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-      margin-bottom: 22px;
-    }
     .card {
-      background: radial-gradient(1200px 400px at 20% -10%, rgba(122,162,247,0.08), transparent 60%), var(--card);
+      background: var(--card);
       border: 1px solid rgba(255,255,255,0.06);
       border-radius: 18px;
       padding: 22px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      margin-bottom: 20px;
     }
-    h1 { font-size: 34px; line-height: 1.2; margin: 0 0 2px; letter-spacing: 0.2px; }
-    .subtitle { color: var(--muted); font-weight: 500; }
-    .contact {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;
-    }
+    h1 { font-size: 34px; margin-bottom: 4px; }
+    .subtitle { color: var(--muted); }
     .contact a {
-      text-decoration: none; color: var(--link);
+      text-decoration: none;
+      color: var(--link);
       background: var(--pill);
       border: 1px solid rgba(255,255,255,0.06);
-      padding: 6px 10px; border-radius: 999px; font-size: 14px;
+      padding: 6px 10px; border-radius: 999px;
+      font-size: 14px; margin: 5px;
+      transition: all 0.3s ease;
     }
-    section { margin-top: 20px; }
-    h2 {
-      font-size: 18px; text-transform: uppercase; letter-spacing: 1.2px; margin: 0 0 10px;
-      color: var(--accent);
+    .contact a:hover {
+      background: var(--hover-bg);
+      box-shadow: var(--hover-shadow);
+      color: white;
+      transform: scale(1.05);
     }
-    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-    @media (max-width: 840px) { .grid-2 { grid-template-columns: 1fr; } }
-    ul { margin: 10px 0 0 18px; padding: 0; }
-    li { margin: 6px 0; }
-    .badge { display: inline-block; background: var(--pill); border: 1px solid rgba(255,255,255,0.08); padding: 6px 10px; border-radius: 999px; margin: 4px 6px 0 0; font-size: 13px; color: var(--ink); }
-    .role { display:flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-    .role h3 { margin: 0; font-size: 17px; }
-    .when { color: var(--muted); font-size: 14px; }
-    .print-note { color: var(--muted); font-size: 12px; text-align: right; }
-    footer { margin-top: 28px; color: var(--muted); font-size: 13px; text-align: center; }
-    /* Print styling */
-    @media print {
-      body { background: white; color: #111; }
-      .card { box-shadow: none; border-color: #eee; }
-      .contact a { background: #f3f3f3; color: #0645ad; border-color: #e5e5e5; }
-      .badge { background: #f3f3f3; color: #111; border-color: #e5e5e5; }
-      .print-note { display: none; }
-      a { color: #0645ad; }
-    }
+    article { margin-bottom: 30px; }
+    h2 { color: var(--accent); text-transform: uppercase; }
   </style>
 </head>
 <body>
   <div class="container">
     <header class="card">
-      <div>
-        <h1>Vineeth Kumar Boddu</h1>
-        <div class="subtitle">Senior DevOps Engineer</div>
-        <div class="contact">
-          <a href="mailto:vineethkumart197@gmail.com">vineethkumart197@gmail.com</a>
-          <a href="tel:+19402677813">+1 (940) 267-7813</a>
-          <a href="https://www.linkedin.com/in/vineethkumarboddu" target="_blank" rel="noopener">linkedin.com/in/vineethkumarboddu</a>
-          <a href="#">United States</a>
-        </div>
+      <h1>Vineeth Kumar Boddu</h1>
+      <div class="subtitle">Senior DevOps Engineer</div>
+      <div class="contact">
+        <a href="mailto:vineethkumart197@gmail.com">vineethkumart197@gmail.com</a>
+        <a href="tel:+19402677813">+1 (940) 267-7813</a>
+        <a href="https://www.linkedin.com/in/vineethkumarboddu" target="_blank">linkedin.com/in/vineethkumarboddu</a>
+        <a href="#">United States</a>
       </div>
     </header>
-
-    <section class="card">
-      <h2>Career Prologue</h2>
-      <p>With over 11 years of hands-on DevOps experience, I specialize in architecting, deploying, and maintaining scalable AWS cloud and automation solutions. My expertise spans infrastructure as code, CI/CD pipelines, container orchestration, and cloud-native security for enterprise environments.</p>
-      <ul>
-        <li>Proficient in end-to-end AWS cloud migrations from on-prem environments, ensuring zero downtime, data integrity, and business continuity during large-scale transformations.</li>
-        <li>Engineering resilient, cloud-native architectures on AWS: VPC, EC2, EKS, RDS, S3, CloudFront, and Lambda to drive scalability and operational excellence.</li>
-        <li>Secure, enterprise-grade infrastructures with AWS IAM, KMS, Cognito, CloudFormation, Route 53, WAF, CloudTrail, and CloudWatch.</li>
-        <li>Modular IaC with Terraform and CloudFormation for consistent, automated deployments across dev/stage/prod.</li>
-        <li>Automation with Jenkins, GitLab CI, Maven, Nexus, and Ansible; integrated with ECR and EKS for seamless container releases.</li>
-        <li>Modernized monoliths via Docker and Amazon EKS for HA and autoscaling.</li>
-        <li>API-driven automation within Jenkins pipelines and Terraform for fully automated build–test–deploy lifecycles.</li>
-        <li>Configuration management with Ansible, Chef, and Puppet to reduce drift and enforce standards.</li>
-        <li>Cloud security automation: VPC design best practices, security groups, NACLs, MFA, Secrets Manager, and SSM Parameter Store.</li>
-        <li>Scripting in Bash, Python, Groovy, and YAML for Ops automation and monitoring.</li>
-        <li>Container security and image scanning with AWS Inspector, ECR scanning, and third‑party tools.</li>
-        <li>Observability with CloudWatch, ELK, Prometheus, Grafana, and Datadog for proactive performance management.</li>
-        <li>Networking foundation: OSI, TCP/IP, DNS, SMTP, FTP; secure comms & load balancing across distributed workloads.</li>
-        <li>Data platforms: RDS (MySQL/PostgreSQL), DynamoDB, and Aurora; scalable data management patterns.</li>
-        <li>Agile DevOps leadership across sprints, releases, and multi-environment AWS setups; cross‑team collaboration.</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Certified Achievements</h2>
-      <span class="badge">Microsoft Certified: Azure DevOps Engineer Expert</span>
-      <span class="badge">Microsoft Certified: Azure Administrator Associate</span>
-      <span class="badge">AWS Certified Solutions Architect – Associate</span>
-    </section>
 
     <section class="card">
       <h2>Career Portfolio</h2>
 
       <article>
-        <div class="role">
-          <h3>Sr AWS DevOps Engineer · Charles Schwab Corp. · Westlake, TX</h3>
-          <div class="when">June 2024 – Present</div>
-        </div>
-        <ul>
-          <li>Led end-to-end migration of financial applications to AWS, ensuring zero downtime and PCI DSS/SOC 2 compliance.</li>
-          <li>Engineered IaC with Terraform and CloudFormation across multi-region, version-controlled infrastructures.</li>
-          <li>Automated provisioning with Ansible for EC2, VPCs, S3, and RDS; standardized AWS deployments.</li>
-          <li>Containerized legacy systems with Docker and deployed to Amazon EKS for scalable, self-healing workloads.</li>
-          <li>Implemented secure, performant API architectures with API Gateway, ALB Ingress, and Route 53.</li>
-          <li>Designed CI/CD with Jenkins/GitLab; integrated Terraform, SonarQube, and Maven to accelerate delivery.</li>
-          <li>Strengthened IAM governance, least-privilege policies, and MFA enforcement.</li>
-          <li>Optimized storage via S3 Intelligent Tiering, versioning, and Glacier archiving.</li>
-          <li>Automated ops with Python (boto3) and Bash for provisioning, patching, and monitoring.</li>
-          <li>Deployed Java microservices on Elastic Beanstalk with autoscaling and CloudWatch alarms.</li>
-          <li>Integrated observability via CloudWatch, ELK, Datadog, and Prometheus.</li>
-          <li>Built event-driven pipelines with Kinesis and Kafka for real-time data flow.</li>
-          <li>Improved latency with CloudFront edge caching and Route 53 global routing.</li>
-          <li>Managed Jenkins master–agent on EC2 with autoscaling workers and multi-env orchestration.</li>
-          <li>Enhanced security posture with Ansible-based OS hardening and continuous compliance.</li>
-        </ul>
+        <h3>Sr AWS DevOps Engineer · Charles Schwab Corp. · Westlake, TX</h3>
+        <p>June 2024 – Present</p>
       </article>
 
       <article>
-        <div class="role">
-          <h3>Sr AWS DevOps Engineer · Merck &amp; Co., Inc. · Rahway, NJ</h3>
-          <div class="when">March 2022 – May 2024</div>
-        </div>
-        <ul>
-          <li>Migrated mission-critical healthcare systems to AWS while maintaining HIPAA compliance and zero downtime.</li>
-          <li>Automated infra with Terraform and CloudFormation across environments; auditable and scalable.</li>
-          <li>Designed/administered EC2, S3, RDS (Aurora), EFS, CloudFront; secure, resilient workloads.</li>
-          <li>Built multi-AZ environments with ASGs, ELBs, and Route 53 for fault tolerance.</li>
-          <li>Centralized IAM/Cognito; MFA and least-privilege policies.</li>
-          <li>Serverless APIs with API Gateway + Lambda for real-time data exchange.</li>
-          <li>Secured PHI using KMS and Secrets Manager with automated key rotation in CI/CD.</li>
-          <li>End-to-end Jenkins/CodePipeline with SonarQube, Terraform, and Maven.</li>
-          <li>Network segmentation via VPC design, private subnets, NACLs, and Security Groups.</li>
-          <li>Monitoring with CloudWatch + ELK; container orchestration on EKS/ECR with Helm and Istio.</li>
-          <li>Data pipelines with AWS Glue, Lambda, and S3 ETL for analytics.</li>
-          <li>Automated backends with Jenkins + Step Functions; reduced operational friction.</li>
-          <li>RBAC enforcement, Okta SSO, and automated compliance checks in pipelines.</li>
-          <li>Automation with boto3/AWS CLI for resource management and recovery.</li>
-        </ul>
+        <h3>Sr AWS DevOps Engineer · Merck &amp; Co., Inc. · Rahway, NJ</h3>
+        <p>March 2022 – May 2024</p>
       </article>
 
       <article>
-        <div class="role">
-          <h3>DevOps Engineer · Comerica, Inc. · Dallas, TX</h3>
-          <div class="when">June 2019 – March 2022</div>
-        </div>
-        <ul>
-          <li>Built CloudFormation stacks for VPCs, subnets, NAT gateways; secure multi-tier architectures.</li>
-          <li>Managed hybrid/cloud-native AWS: EC2, S3, CloudFront, EFS, RDS, Route 53, Direct Connect, CloudTrail, IAM.</li>
-          <li>Optimized performance with CDN tuning and CloudFront edge locations.</li>
-          <li>ALB/NLB for efficient traffic distribution; fault tolerance and HA.</li>
-          <li>Blue/green and canary deployments with CloudFormation, CodeDeploy, Route 53 weighted routing.</li>
-          <li>Dockerized microservices; improved agility and reduced manual config.</li>
-          <li>Production-grade EKS integrated with Jenkins for rolling updates and DR readiness.</li>
-          <li>CI/CD with CodeBuild, CodeCommit, CodePipeline for multi-region workflows.</li>
-          <li>Git branching standards and IaC controls; reduced integration delays.</li>
-          <li>CloudWatch metrics/dashboards/alarms; Lambda-based automated remediation.</li>
-          <li>Build management with Maven + Artifactory; secured binary repos.</li>
-          <li>Prometheus &amp; Grafana for real-time K8s monitoring and utilization.</li>
-          <li>RDS Multi-AZ (MySQL/Postgres) with failover &amp; encryption; DynamoDB tuning for high-transaction systems.</li>
-          <li>Automated pipelines for Java and PHP in Jenkins; uniform DevOps standards.</li>
-          <li>Tomcat &amp; WebLogic on EC2 ASG; consistent throughput and resilience.</li>
-          <li>Python/Shell scripts for monitoring, API integration, and compliance.</li>
-        </ul>
+        <h3>DevOps Engineer · Comerica, Inc. · Dallas, TX</h3>
+        <p>June 2019 – March 2022</p>
       </article>
 
       <article>
-        <div class="role">
-          <h3>DevOps Engineer · Cleveland Financial Department · Cleveland, OH</h3>
-          <div class="when">September 2016 – May 2019</div>
-        </div>
-        <ul>
-          <li>Defined SLIs/SLOs; led SRE operations with proactive monitoring and automated release management.</li>
-          <li>Capacity planning and cost optimization; decommissioned underutilized EC2/EBS to cut spend by 25%.</li>
-          <li>Secure AWS with IAM, VPC, SGs, NACLs; compliance with OWASP and PCI DSS.</li>
-          <li>Terraform/CloudFormation for provisioning; DR with S3 versioning and cross-region replication.</li>
-          <li>Event-driven automation with Lambda and EventBridge; RabbitMQ &amp; Memcached for low-latency comms.</li>
-          <li>GitLab/Jenkins CI/CD integrating Terraform, CodeBuild, and SonarQube.</li>
-          <li>KMS, WAF, and Secrets Manager; encryption in transit and at rest.</li>
-          <li>Optimized CloudFront and Git workflows for performance and collaboration.</li>
-          <li>Hybrid connectivity via AWS Direct Connect to on-prem data centers.</li>
-          <li>Centralized logging &amp; monitoring with CloudWatch Logs, ELK, and Splunk.</li>
-          <li>Amazon Linux &amp; RHEL hardened; patching and compliance via Systems Manager and Ansible.</li>
-        </ul>
+        <h3>DevOps Engineer · Cleveland Financial Department · Cleveland, OH</h3>
+        <p>September 2016 – May 2019</p>
       </article>
 
       <article>
-        <div class="role">
-          <h3>Linux Administrator · Evolent Health Inc · Arlington, VA</h3>
-          <div class="when">December 2013 – August 2016</div>
-        </div>
-        <ul>
-          <li>Administered Linux estates (RHEL/CentOS/Ubuntu) on AWS EC2 with HA and HIPAA compliance.</li>
-          <li>Patch management using Systems Manager automation &amp; repo mirroring.</li>
-          <li>Hardened servers with SGs, NACLs, WAF, and Inspector; scheduled vulnerability scans.</li>
-          <li>Bash/Python automation integrated with CloudWatch Logs/Metrics to improve visibility.</li>
-          <li>Crontab &amp; EventBridge scheduling to align compute cycles with workloads.</li>
-          <li>24×7 production support within strict SLAs; incident response and remediation.</li>
-          <li>S3/EBS backup strategies; reduced RTO/RPO during outages.</li>
-          <li>AMI standardization via Launch Templates &amp; CloudFormation; eliminated manual errors.</li>
-          <li>Kernel/VPC Flow Logs troubleshooting; improved inter-service reliability.</li>
-          <li>AWS Directory Service &amp; LDAP federation; unified access policies.</li>
-          <li>Lifecycle of IAM users/roles/policies; continuous compliance scanning with Config Rules.</li>
-          <li>RCA documentation and JIRA change tracking integrated with SNS alerts.</li>
-        </ul>
+        <h3>Linux Administrator · Evolent Health Inc · Arlington, VA</h3>
+        <p>December 2013 – August 2016</p>
       </article>
     </section>
-
-    <section class="card">
-      <h2>Education</h2>
-      <p>Bachelor of Engineering in Electronics &amp; Communication, India</p>
-    </section>
-
-    <footer>
-      <div>© <span id="y"></span> Vineeth Kumar Boddu</div>
-      <div class="print-note">Tip: In your browser, use File → Print → Save as PDF for a printable version.</div>
-    </footer>
   </div>
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
